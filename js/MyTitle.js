@@ -1,11 +1,11 @@
 /* eslint react/prop-types:0 */
 import React from 'react'
-const div = React.DOM.div
-const h1 = React.DOM.h1
+const div = React.DOM.div;
+const h1 = React.DOM.h1;
 
 const MyTitle = React.createClass({
   render () {
-    const style = {color: this.props.color}
+    const style = {color: this.props.color};
     return (
       <div>
         <h1 style={style}>
@@ -14,6 +14,6 @@ const MyTitle = React.createClass({
       </div>
     )
   }
-})
+});
 
-export default MyTitle
+export default MyTitle;
