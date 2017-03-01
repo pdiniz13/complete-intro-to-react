@@ -10,8 +10,9 @@
     "update-test": "npm run test -- -u",
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "lint": "eslint js/**/*.js server.js",
-    "watch": "webpack --watch"
+    "lint": "eslint js/**/*.js webpack.config.js",
+    "watch": "webpack --watch",
+    "cover": "npm run test -- --coverage"
   },
   "dependencies": {
     "axios": "0.15.2",
@@ -21,7 +22,7 @@
     "preact": "^6.4.0",
     "preact-compat": "^3.9.3",
     "react": "15.3.2",
-    "react-dom": "15.3.2",
+    "react-dom": "^15.4.2",
     "react-redux": "4.4.0",
     "react-router": "4.0.0-alpha.5",
     "redux": "3.3.1",

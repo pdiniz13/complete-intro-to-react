@@ -1,0 +1,7 @@
+{
+    "extends": ["standard-react"],
+    "rules": {
+        "indent": ["warn", 4],
+        "react/jsx-indent": ["warn", 4]
+    }
+}
